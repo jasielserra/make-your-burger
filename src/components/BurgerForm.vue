@@ -61,6 +61,14 @@ export default {
       status: "Solicitado",
       msg: null,
     }
+  },
+  methods: {
+     async getIngredientes(){
+       const req = await fetch("http://localhost:3000/ingredientes");
+       const data = await req.json();
+
+       console.log(data);
+     }
   }
 
 }
