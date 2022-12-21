@@ -39,7 +39,6 @@
         "id": 4,
         "tipo": "Veggie burger"
       }
-
     ],
     "opcionais": [
       {
@@ -82,5 +81,49 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": []
+  "burgers": [
+    {
+      "nome": "Jasiel de Cristo Serra",
+      "carne": "Alcatra",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "Daniel Ortega",
+      "carne": "Picanha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Salame",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "nome": "Carli Mauri",
+      "carne": "Veggie burger",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Cheddar",
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 3
+    },
+    {
+      "nome": "Joseph Youssef",
+      "carne": "Alcatra",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 4
+    }
+  ]
 }
